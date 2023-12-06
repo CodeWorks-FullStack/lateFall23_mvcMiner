@@ -1,8 +1,11 @@
-import { router } from './router-config.js';
+// import { router } from './router-config.js';
+import { GameController } from "./controllers/GameController.js"
+import { UpgradesController } from "./controllers/UpgradesController.js"
 
 class App {
 
-  router = router
+  GameController = new GameController()
+  UpgradesController = new UpgradesController()
 
 }
 
